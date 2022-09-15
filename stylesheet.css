@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+.main-section{
+    background-color: #1f2937;
+    padding: 0 4rem;
+    width: 100%;
+    color: #fff;
+}
+.headlogo{
+    padding-top: 1rem;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    /* justify-content: center; */
+    align-items:center ;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links{
+    justify-content: center;
+    width: 40%;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.text-head{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+.text{
+    width: 40%;
+}
+.text h1{
+    font-size: 48px;
+    color:f9faf8;font-weight:bolder;
+}
+button{
+    padding:5px 20px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.gray{
+    align-items: center;
+    display: flex;
+    background-color: gray;
+    width: 60%;
+    justify-content: center;
+}
+.random{
+    width: 100%;
+    padding: 0 4rem;
+    border: 3px solid yellow;
+
+}
+.information{
+ display: flex;
+ justify-content: center;
+ width: 90%;
+ margin:0 auto ;
+ border: 3px solid orange;
+}
+.information .h1 h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.set{
+    justify-content: space-around;
+    border: 5px solid skyblue;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+.bluebox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
